@@ -1,7 +1,0 @@
-app_demo_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: AppDemoBundle:Default:index }
-
-app_demo_how_it_works:
-    pattern:  /how-it-works
-    defaults: { _controller: AppDemoBundle:Default:howItWorks }
