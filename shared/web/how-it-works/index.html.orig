@@ -8,15 +8,15 @@
     <meta http-equiv="content-style-type" content="text/css" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="revisit-after" content="5 days" />
-    <link rel="stylesheet" type="text/css" href="http://{{ host }}:8880/ccss/base_c.css%3Fver=2183.css" media="all" /><link rel="stylesheet" type="text/css" href="http://{{ host }}:8880/ccss/traveler_c.css%3Fver=2183.css" media="all" />
-    <link rel="canonical" href="index.html" />
-    <link rel="Shortcut Icon" href="http://{{ host }}:8880/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="/ccss/base_c.css?ver=2183" media="all" /><link rel="stylesheet" type="text/css" href="/ccss/traveler_c.css?ver=2183" media="all" />
+    <link rel="canonical" href="http://www.flipkey.com/how-it-works/" />
+    <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
 
             <script type="text/javascript">
             FlipKey = {"controller":"pages","action":"how_it_works_new","debug":0};
             document.documentElement.className += " js";
         </script>
-    <script type="text/javascript" src="http://{{ host }}:8880/cjs/base_c.js%3Fver=2183"></script><script type="text/javascript" src="http://{{ host }}:8880/cjs/traveler_c.js%3Fver=2183"></script>
+    <script type="text/javascript" src="/cjs/base_c.js?ver=2183"></script><script type="text/javascript" src="/cjs/traveler_c.js?ver=2183"></script>
         <!--[if lte IE 7]><script type="text/javascript" src="/cjs/roundies.js?ver=2183"></script><script type="text/javascript" src="/cjs/png24fix.js?ver=2183"></script><![endif]-->
 <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -160,7 +160,7 @@ Event.observe(window, 'load', function() {
                                     </div>
 
                 <div id="new-to-flipkey">
-                                            <span>New to vacation rentals?</span> <a href="index.html">Start here.</a>
+                                            <span>New to vacation rentals?</span> <a href="http://www.flipkey.com/how-it-works/">Start here.</a>
                                     </div>
             </div>
         </div>
@@ -170,14 +170,14 @@ Event.observe(window, 'load', function() {
             <div id="nav-links">
                 <div id="nav-first" class="nav-dividers"></div>
                 <div class="nav-dividers "><a href="http://www.flipkey.com/vacation-rentals/" class="nav-link">Find a Rental</a></div>
-                <div class="nav-dividers nav-active"><a href="index.html" class="nav-link">How it Works</a></div>
+                <div class="nav-dividers nav-active"><a href="http://www.flipkey.com/how-it-works/" class="nav-link">How it Works</a></div>
 				<div class="nav-dividers"><a href="http://www.flipkey.com/galleries/" class="nav-link">Galleries</a></div>
                 <div class="nav-dividers "><a href="http://www.flipkey.com/write-a-review/" class="nav-link">Write a Review</a></div>
                 <div id="nav-last" class="nav-dividers"></div>
                 <div class="cleaner"></div>
             </div>
             <div id="nav-search">
-                <form id="search-bar" class="nav-search-form" method="post" action="http://www.flipkey.com/search/q/"><fieldset style="display:none;"><input type="hidden" name="_method" value="POST" /></fieldset>    <label for="f-search"></label><input name="data[search][destination]" type="text" id="f-search" class="default general-search-mag-glass-wide" value="Where to?" size="25" />    <button type="submit" id="f-search-submit">Search</button>
+                <form id="search-bar" class="nav-search-form" method="post" action="/search/q/"><fieldset style="display:none;"><input type="hidden" name="_method" value="POST" /></fieldset>    <label for="f-search"></label><input name="data[search][destination]" type="text" id="f-search" class="default general-search-mag-glass-wide" value="Where to?" size="25" />    <button type="submit" id="f-search-submit">Search</button>
     <input type="hidden" name="data[search][location_id]" id="selected_loc_id" value="" />    <input type="hidden" name="data[search][search_bar]" value="1" id="searchSearchBar" /></form>
 <script type="text/javascript">
 new Autocomplete('f-search', {
@@ -223,12 +223,12 @@ defaultValueSwap($('f-search'), 'default general-search-mag-glass-wide', 'ac_tex
                     <tr>
                         <td class="grey-trim"></td>    
                     </tr>
-                        <td class="nav-li" id="mypicks_nav_tab" onclick="FlipKey.MyPicks.make_active('mypicks');">My Picks <span class="numbers" >(0)</span> <span id="mypicks_links" class="share_links" style="display:none;"><a href="http://www.flipkey.com/search/my_picks/">View All</a></span></td>
+                        <td class="nav-li" id="mypicks_nav_tab" onclick="FlipKey.MyPicks.make_active('mypicks');">My Picks <span class="numbers" >(0)</span> <span id="mypicks_links" class="share_links" style="display:none;"><a href="/search/my_picks/">View All</a></span></td>
                     <tr>
-                        <td class="nav-li" id="views_nav_tab" onclick="FlipKey.MyPicks.make_active('views');">Recently Viewed <span class="numbers" > (0)</span> <span id="views_links" class="share_links" style="display:none;"><a href="http://www.flipkey.com/search/viewed/">View All</a></span></td>
+                        <td class="nav-li" id="views_nav_tab" onclick="FlipKey.MyPicks.make_active('views');">Recently Viewed <span class="numbers" > (0)</span> <span id="views_links" class="share_links" style="display:none;"><a href="/search/viewed/">View All</a></span></td>
                     </tr>
                     <tr>
-                        <td class="nav-li" id="inquiries_nav_tab" onclick="FlipKey.MyPicks.make_active('inquiries');">Inquired Upon <span class="numbers" > (0)</span> <span id="inquiries_links" class="share_links" style="display:none;"><a href="http://www.flipkey.com/search/inquired/">View All</a></span></td>
+                        <td class="nav-li" id="inquiries_nav_tab" onclick="FlipKey.MyPicks.make_active('inquiries');">Inquired Upon <span class="numbers" > (0)</span> <span id="inquiries_links" class="share_links" style="display:none;"><a href="/search/inquired/">View All</a></span></td>
                     </tr>
                 </table>
             </td>
@@ -248,16 +248,85 @@ if ($('login-link'))
     });
 }
 </script>
-<div id="moab"><div id="content">
+<div id="moab"><div id="content"><p class="howitworks_head_text">How to stay in a vacation rental</p>
+<p class="howitworks_head_subtext">If you're new to vacation rentals, it's easy to find the rental perfect for you on FlipKey. Vacations are better with a place to call home.</p>
+<div class="howitworks_main_box" >
+    <div class="howitworks_three_column" style="float:left; margin-top:220px;margin-left:20px;">
+        <span class="howitworks_list">1</span>
+        <p class="howitworks_column_head">Find an apartment, condo, or home to rent on FlipKey.</p>
+        <p class="howitworks_column_text">Vacation rentals combine the excitement of travel with the comforts of home. With extra space, privacy, and amenities, it's the smartest choice. Here's how to begin.</p>
+        <ul>
+        	<li class="howitworks_list_item"><span class="howitworks_column_text_list_bold">Explore your options.</span> <span class="howitworks_column_text_list">Search for a specific location from our <a href="http://www.flipkey.com">homepage</a> or <a href="http://www.flipkey.com/vacation-rentals/">explore all destinations</a> if you aren't sure where you want to go.</span></li>
+            <li class="howitworks_list_item"><span class="howitworks_column_text_list_bold">Check out the details.</span> <span class="howitworks_column_text_list">You can view each rental to check out photos and availability, bedroom and bathroom details, and see what activities and restaurants are nearby.</span></li>
+            <li class="howitworks_list_item"><span class="howitworks_column_text_list_bold">Read Reviews.</span> <span class="howitworks_column_text_list">Take a look at what past guests have said about the rental. FlipKey has real reviews from past guests. Rental owners can never edit reviews.</span></li>
+            <li class="howitworks_list_item"><span class="howitworks_column_text_list_bold">Contact a few rentals.</span> <span class="howithowitworks_column_text_listworks_column_text">Ask questions before you make a reservation. We recommend contacting at least 5 rental owners or managers to make sure you can choose the perfect place.</span></li>
+        </ul>
+    </div>
+    <div class="howitworks_three_column" style="float:left; margin-top:220px; margin-left: 60px;">
+        <span class="howitworks_list">2</span>
+        <p class="howitworks_column_head">Book your reservation.</p>
+        <p class="howitworks_column_text">After contacting several rentals, you will receive responses from rental owners and managers confirming rates and availability. Now you're ready to select a rental and book your reservation.</p>
+        <ul>
+            <li class="howitworks_list_item"><span class="howitworks_column_text_list_bold">Sign a rental agreement.</span> <span class="howitworks_column_text_list">Expect to receive a rental agreement which helps everyone understand the pricing, policies, and check-in/check-out procedure for your stay.</span></li>
+            <li class="howitworks_list_item"><span class="howitworks_column_text_list_bold">Send your deposit. </span><span class="howitworks_column_text_list">Most rentals request a small deposit to confirm the reservation.</span></li>
+            <li class="howitworks_list_item"><span class="howitworks_column_text_list_bold">Stay safe with your payment.</span> <span class="howitworks_column_text_list">Avoid paying by wire transfer (such as Western Union or Money Gram), and instead always pay by credit card or PayPal.</span></li>
+            <li class="howitworks_list_item"><span class="howitworks_column_text_list_bold">Protect your vacation.</span> <span class="howitworks_column_text_list">FlipKey offers travel insurance specially designed for vacation rentals. <a href="http://flipkey.berkelycare.com">Learn more</a></span></li>
+            <li class="howitworks_list_item"><span class="howitworks_column_text_list_bold">Ask us!</span> <span class="howitworks_column_text_list">If you aren't sure about anything, feel free to <a href="http://www.flipkey.com/Pages/contact_form/">contact FlipKey</a> for advice.</span></li>
+        </ul>
+    </div>
+    <div class="howitworks_three_column" style="float:right; margin-top:220px; margin-right: 15px;">
+        <span class="howitworks_list">3</span>
+        <p class="howitworks_column_head">Check-in and have a great trip!</p>
+        <p class="howitworks_column_text">Your vacation is almost here! Before you check-in, here are some reminders to have a great stay.</p>
+        <ul>
+            <li class="howitworks_list_item"><span class="howitworks_column_text_list_bold">Get the keys.</span> <span class="howitworks_column_text_list">Most rentals use either a lock box or keep keys at a central property management office. Make sure you know where to receive the keys upon your arrival.</span></li>
+            <li class="howitworks_list_item"><span class="howitworks_column_text_list_bold">Discover the area.</span> <span class="howitworks_column_text_list">Plan ahead by doing some research on your destination before the trip. <a href="http://www.tripadvisor.com">TripAdvisor</a> is especially useful for finding things to do.</span></li>
+            <li class="howitworks_list_item"><span class="howitworks_column_text_list_bold">Be the perfect guest.</span> <span class="howitworks_column_text_list">These are real homes, so enjoy your stay just as if you were living in your own house. Remember to tidy up before you leave!</span></li>
+            <li class="howitworks_list_item"><span class="howitworks_column_text_list_bold">Share your experience.</span> <span class="howitworks_column_text_list">After your trip, come back to FlipKey to leave a review. You’ll help future travelers know about your experience.</span></li>
+        </ul>
+    </div>
+</div>
+<div style="width:950px;"><hr style="width:950px;"/></div>
+<div class="howitworks_discover_box">
+    <p class="howitworks_head_text" id="discover_head">Discover why travelers love FlipKey.</p>
 
+    <div class="howitworks_image_box" style="float:left; margin-bottom: 32px;">
+        <img src="/img/how-it-works-thumb1.jpg" />
+    </div>
 
+    <div class="howitworks_left_boxes howitworks_left_box">
+        <p class="howitworks_box_header">Homes. Condos. Villas. Resorts.</p>
+        <p class="howitworks_box_text">Choose the perfect place to stay. You’ll always have options when you travel, anywhere in the world.</p>
+    </div>
+    
+    <div class="howitworks_image_box howitworks_right_box">
+        <img src="/img/how-it-works-thumb2.jpg" />
+    </div>
 
+    <div class="howitworks_left_boxes howitworks_right_box">
+        <p class="howitworks_box_header">A new way to travel.</p>
+        <p class="howitworks_box_text">Rent for 1 night to 1 month. Live like a local anywhere in the world with your own vacation rental house.</p>
+    </div>
+    <div style="clear:both;"></div>
 
-{% block body %}{% endblock %}
-
-
-
-
+    <div class="howitworks_image_box" style="float:left; margin-bottom: 20px;">
+        <img src="/img/how-it-works-thumb6.jpg" />
+    </div>
+    <div class="howitworks_left_boxes howitworks_left_box">
+        <p class="howitworks_box_header">Read what past guests are saying.</p>
+        <p class="howitworks_box_text">Find out the real scoop on each rental. FlipKey has the largest collection of verified and trusted guest reviews in the industry!</p>
+    </div>
+    
+    <div class="howitworks_image_box howitworks_right_box">
+        <img src="/img/how-it-works-thumb4.jpg" />
+    </div>   
+    <div class="howitworks_left_boxes howitworks_right_box">
+        <p class="howitworks_box_header">Travel happy.</p>
+        <p class="howitworks_box_text">Who wants to live in a hotel? Take the comforts of home with you. Enjoy your own kitchen, extra space, and maybe even a backyard.</p>
+    </div>
+    
+    <div style="clear:both"></div>
+</div>
 </div></div>    
     <div id="footer">
             <div id="full-footer">
@@ -342,7 +411,7 @@ if ($('login-link'))
                 </div>
                 <div id="footer-right" class="footer-vert-divider-left">
                     <h3>New to FlipKey?</h3>
-                    <a href="index.html">
+                    <a href="http://www.flipkey.com/how-it-works/">
                         <div class="new-to-flipkey"></div>
                         <div id="new-to-flipkey">
                             Find the vacation rental perfect for you. <span>Learn how.</span>
@@ -352,7 +421,7 @@ if ($('login-link'))
             </div>
         </div>
         <div id="copyright">
-            <a href="http://www.flipkey.com/"><div class="general-logo-141px"></div></a>
+            <a href="/"><div class="general-logo-141px"></div></a>
             <div id="flipkey-desc">
                 FlipKey is a vacation rental marketplace with more than 160,000 rentals around the world. Find the perfect place to stay for your trip, and get great value along with the space, privacy and amenities of home.
             </div>
@@ -370,4 +439,3 @@ if ($('login-link'))
 
 </body>
 </html>
-
