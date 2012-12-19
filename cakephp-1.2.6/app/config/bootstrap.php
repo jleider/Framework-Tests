@@ -41,4 +41,7 @@
  *
  */
 //EOF
+
+
+    ini_set('session.save_handler', 'files');
 ?>
