@@ -1,49 +1,51 @@
 <?php echo $this->doctype(); ?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+    <?php
+    // Title
+    echo $this->headTitle($this->translate('Vacation Rentals - FlipKey - How it works'))->setSeparator(' - ')->setAutoEscape(false);
 
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <?php echo $this->headTitle('ZF2 '. $this->translate('Skeleton Application'))->setSeparator(' - ')->setAutoEscape(false) ?>
+    // Meta
+    echo $this->headMeta()->appendName('viewport', 'width=device-width, initial-scale=1.0');
+    echo $this->headMeta()->appendName('revisit-after', '5 days');
 
-        <?php echo $this->headMeta()->appendName('viewport', 'width=device-width, initial-scale=1.0') ?>
+    // Styles
+    echo $this->headLink(array('rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/images/favicon.ico'))
+        ->prependStylesheet($this->basePath() . '/ccss/traveler_c.css%3Fver=2183.css')
+        ->prependStylesheet($this->basePath() . '/ccss/base_c.css%3Fver=2183.css');
 
-        <!-- Le styles -->
-        <?php echo $this->headLink(array('rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/images/favicon.ico'))
-                        ->prependStylesheet($this->basePath() . '/css/bootstrap-responsive.min.css')
-                        ->prependStylesheet($this->basePath() . '/css/style.css')
-                        ->prependStylesheet($this->basePath() . '/css/bootstrap.min.css') ?>
+    // Scripts
+    echo $this->headScript()->prependFile($this->basePath() . '/cjs/roundies.js%3Fver=2183', 'text/javascript', array('conditional' => 'lt IE 7',))
+        ->prependFile($this->basePath() . '/cjs/traveler_c.js%3Fver=2183')
+        ->prependFile($this->basePath() . '/cjs/base_c.js%3Fver=2183');
 
-        <!-- Scripts -->
-        <?php echo $this->headScript()->prependFile($this->basePath() . '/js/html5.js', 'text/javascript', array('conditional' => 'lt IE 9',))
-                                      ->prependFile($this->basePath() . '/js/bootstrap.min.js')
-                                      ->prependFile($this->basePath() . '/js/jquery.min.js') ?>
 
-    </head>
-    <body>
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="container">
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
+    echo $this->render('layout/header/head_js')
+    ?>
+</head>
+<body>
+    <div id="arches" >
+        <div id="arches-full">
+            <div id="alert-bar-top" class="alert-bar"></div>
+            <div id="full-width-top-decorator"></div>
+            <?= $this->render('layout/header') ?>
+            <?= $this->render('layout/header/navbar') ?>
+            <?= $this->render('layout/header/mypicks') ?>
+            <?= $this->render('layout/header/login_box') ?>
+
+            <div id="moab">
+                <div id="content">
                     <a class="brand" href="<?php echo $this->url('home') ?>"><?php echo $this->translate('Skeleton Application') ?></a>
-                    <div class="nav-collapse collapse">
-                        <ul class="nav">
-                            <li class="active"><a href="<?php echo $this->url('home') ?>"><?php echo $this->translate('Home') ?></a></li>
-                        </ul>
-                    </div><!--/.nav-collapse -->
+                    <?php echo $this->content; ?>
                 </div>
             </div>
+
+            <?= $this->render('layout/footer') ?>
         </div>
-        <div class="container">
-            <?php echo $this->content; ?>
-            <hr>
-            <footer>
-                <p>&copy; 2005 - 2012 by Zend Technologies Ltd. <?php echo $this->translate('All rights reserved.') ?></p>
-            </footer>
-        </div> <!-- /container -->
-        <?php echo $this->inlineScript() ?>
-    </body>
+    </div>
+    <input id='ioBB' name='data[BB][iobb]' type='hidden' />
+    <?php echo $this->inlineScript() ?>
+</body>
 </html>

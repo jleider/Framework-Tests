@@ -1,0 +1,8 @@
+<div id="alert-bar-inline" class="alert-bar"></div>
+<script type="text/javascript">
+    if ($('login-link')) {
+        $('login-link').observe('click', function() {
+            FlipKey.showLightboxAjax("/Pages/login/", true, false, null, null, {archesnew : true });
+        });
+    }
+</script>
