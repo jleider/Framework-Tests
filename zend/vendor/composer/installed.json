@@ -10,9 +10,9 @@
         },
         "dist": {
             "type": "zip",
-            "url": "http://packages.zendframework.com/releases/ZendFramework-2.0.3/ZendFramework-2.0.3.zip",
+            "url": "https://github.com/zendframework/zf2/zipball/release-2.0.3",
             "reference": "release-2.0.3",
-            "shasum": "c063848cceb1e32ad57746099ec1fafa6b3efa34"
+            "shasum": ""
         },
         "require": {
             "php": ">=5.3.3"
@@ -67,7 +67,8 @@
             "zendframework/zend-xmlrpc": "self.version"
         },
         "require-dev": {
-            "doctrine/common": ">=2.1"
+            "doctrine/common": ">=2.1",
+            "phpunit/phpunit": "3.7.*"
         },
         "suggest": {
             "doctrine/common": "Doctrine\\Common >=2.1 for annotation features",
@@ -76,7 +77,16 @@
             "zendframework/zendpdf": "ZendPdf for creating PDF representations of barcodes",
             "zendframework/zendservice-recaptcha": "ZendService\\ReCaptcha for rendering ReCaptchas in Zend\\Captcha and/or Zend\\Form"
         },
+        "time": "2012-10-17 14:33:54",
+        "bin": [
+            "bin/classmap_generator.php"
+        ],
         "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0-dev"
+            }
+        },
         "installation-source": "dist",
         "autoload": {
             "psr-0": {
@@ -88,15 +98,10 @@
             "BSD-3-Clause"
         ],
         "description": "Zend Framework 2",
+        "homepage": "http://framework.zend.com/",
         "keywords": [
             "framework",
             "zf2"
-        ],
-        "support": {
-            "email": "fw-general-subscribe@lists.zend.com",
-            "irc": "irc://irc.freenode.net/zftalk",
-            "issues": "https://github.com/zendframework/zf2/issues",
-            "source": "https://github.com/zendframework/zf2"
-        }
+        ]
     }
 ]
