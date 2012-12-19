@@ -80,6 +80,12 @@ return array(
         'exception_template'       => 'error/index',
         'template_map' => array(
             'layout/layout'           => __DIR__ . '/../view/layout/layout.phtml',
+            'layout/header'           => __DIR__ . '/../view/layout/header.phtml',
+            'layout/footer'           => __DIR__ . '/../view/layout/footer.phtml',
+            'layout/header/head_js'   => __DIR__ . '/../view/layout/header/head_js.phtml',
+            'layout/header/login_box' => __DIR__ . '/../view/layout/header/login_box.phtml',
+            'layout/header/mypicks'   => __DIR__ . '/../view/layout/header/mypicks.phtml',
+            'layout/header/navbar'    => __DIR__ . '/../view/layout/header/navbar.phtml',
             'application/index/index' => __DIR__ . '/../view/application/index/index.phtml',
             'error/404'               => __DIR__ . '/../view/error/404.phtml',
             'error/index'             => __DIR__ . '/../view/error/index.phtml',

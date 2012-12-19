@@ -1,0 +1,42 @@
+
+<div id="full-width-nav-bar">
+    <div id="navigation">
+        <div id="nav-links">
+            <div id="nav-first" class="nav-dividers"></div>
+            <div class="nav-dividers "><a href="http://www.flipkey.com/vacation-rentals/" class="nav-link">Find a Rental</a></div>
+            <div class="nav-dividers nav-active"><a href="index.html" class="nav-link">How it Works</a></div>
+            <div class="nav-dividers"><a href="http://www.flipkey.com/galleries/" class="nav-link">Galleries</a></div>
+            <div class="nav-dividers "><a href="http://www.flipkey.com/write-a-review/" class="nav-link">Write a Review</a></div>
+            <div id="nav-last" class="nav-dividers"></div>
+            <div class="cleaner"></div>
+        </div>
+        <div id="nav-search">
+            <form id="search-bar" class="nav-search-form" method="post" action="http://www.flipkey.com/search/q/"><fieldset style="display:none;"><input type="hidden" name="_method" value="POST" /></fieldset>    <label for="f-search"></label><input name="data[search][destination]" type="text" id="f-search" class="default general-search-mag-glass-wide" value="Where to?" size="25" />    <button type="submit" id="f-search-submit">Search</button>
+                <input type="hidden" name="data[search][location_id]" id="selected_loc_id" value="" />    <input type="hidden" name="data[search][search_bar]" value="1" id="searchSearchBar" /></form>
+            <script type="text/javascript">
+                new Autocomplete('f-search', {
+                    serviceUrl:'/search/autocomplete',
+                    autoSubmit:false,
+                    minChars:1,
+                    maxHeight:350,
+                    width:350,
+                    onSelect: function(value, data) {
+                        $('selected_loc_id').setValue(data);
+                        $('search-bar').submit();
+
+                    }
+                });
+
+                defaultValueSwap($('f-search'), 'default general-search-mag-glass-wide', 'ac_text general-search-mag-glass-wide', 'Where to?');
+            </script>            </div>
+        <div id="nav-picks" onclick="FlipKey.MyPicks.onClickHeaderDiv();_gaq.push(['_trackEvent', 'mypicks', 'my_picks_open', '', 1]);">
+            <div id="nav-picks-divider" class="nav-dividers">
+                <a href="javascript:void(0)">
+                        <span class="general-house-nav">
+                                                        <span id="mypick_total_nav_count">0</span>
+                                                    </span>My Picks &#9660;
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
