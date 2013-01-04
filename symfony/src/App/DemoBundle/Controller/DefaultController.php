@@ -18,4 +18,8 @@ class DefaultController extends Controller
             'host' => $host,
         ));
     }
+
+    public function nothingAction() {
+        exit;
+    }
 }
