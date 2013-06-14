@@ -11,4 +11,7 @@ class BenchmarkController extends AppController {
     }
 
 
+    public function nothing() {
+        exit;
+    }
 }

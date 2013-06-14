@@ -5,3 +5,7 @@ app_demo_homepage:
 app_demo_how_it_works:
     pattern:  /how-it-works
     defaults: { _controller: AppDemoBundle:Default:howItWorks }
+
+app_demo_nothing:
+    pattern:  /nothing
+    defaults: { _controller: AppDemoBundle:Default:nothing }

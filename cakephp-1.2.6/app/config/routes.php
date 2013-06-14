@@ -36,4 +36,5 @@
  * ...and connect the rest of 'Pages' controller's urls.
  */
 	Router::connect('/how-it-works', array('controller' => 'benchmark', 'action' => 'howItWorksAction'));
+	Router::connect('/nothing', array('controller' => 'benchmark', 'action' => 'nothing'));
 ?>
